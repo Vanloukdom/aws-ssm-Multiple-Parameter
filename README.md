@@ -11,10 +11,12 @@ mkdir terraform-ssm-parameters
 cd terraform-ssm-parameters
 ```
 2. Create a new file named `main.tf` and add the following Terraform configuration:
+
 ```hcl
 provider "aws" {
   region = "eu-west-3" # Change to your desired region
 }
+
 
 ![terraform Parameter](./img/parameter_store.JPG)
 
