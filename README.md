@@ -6,13 +6,14 @@ This is a simple example of how to manage multiple parameters in AWS Systems Man
 - An AWS account with the necessary permissions to create SSM parameters.
 ## Steps to Create Multiple Parameters
 1. Create a new directory for your Terraform configuration and navigate to it:
+
 ```bash
 mkdir terraform-ssm-parameters
 cd terraform-ssm-parameters
 ```
+
 2. Create a new file named `main.tf` and add the following Terraform configuration:
 
-```hcl
 provider "aws" {
   region = "eu-west-3" # Change to your desired region
 }
